@@ -45,7 +45,8 @@ get_header();
                                     ?>
 										
 									<li>
-                                    <?php dynamic_sidebar( 'sidebar' ); ?>
+                                    <?php //hämtar sidebar
+                                    dynamic_sidebar( 'sidebar' ); ?>
 										</ul>
 									</li>
 								</ul>
